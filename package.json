@@ -1,0 +1,22 @@
+{
+  "name": "mypersonallib---backend",
+  "version": "1.0.0",
+  "description": "A place to keep the books i already readed, i'm reading right now and i want to read",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.5.2",
+    "tsx": "^4.1.1",
+    "typescript": "^5.2.2"
+  }
+}
