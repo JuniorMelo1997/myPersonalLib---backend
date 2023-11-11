@@ -15,9 +15,9 @@ A place to keep the books i already readed, i'm reading right now and i want to 
 [] Find all books
 
 #How to
-[] User must have username (unique), password, e-mail, description (optional) and a list of books
-[] The list of books must have the already readed books, the on reading books e the future books
-[] The book must have the title, the gender, the author, the number of pages, the year and the edition
+[x] User must have username (unique), password, e-mail, description (optional) and a list of books
+[x] The list of books must have the already readed books, the on reading books e the future books
+[x] The book must have the title, the gender, the author, the number of pages, the year and the edition
 
 
 #Future work
