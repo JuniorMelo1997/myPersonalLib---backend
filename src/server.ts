@@ -1,10 +1,10 @@
-import express from "express";
+import express, { json } from "express";
+import { userRoutes } from "./routes/userRoutes";
 
 const app = express();
 
-app.get("/", (req, res)=>{
-    res.json({message: "We're on the road"});
-})
+app.use(json());
+app.use(userRoutes);
 
 app.listen(3000, ()=>{
     console.log("Running");
