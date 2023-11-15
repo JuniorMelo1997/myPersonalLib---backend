@@ -3,7 +3,7 @@ A place to keep the books i already readed, i'm reading right now and i want to 
 
 #Goals
 [x] Create user
-[] Drop user
+[x] Drop user
 [] Update user
 [] Find user
 [] Find all users

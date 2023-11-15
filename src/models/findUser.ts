@@ -24,4 +24,16 @@ const findUserByEmail = async (email: string)=>{
     return user;
 }
 
-export {findUserByName, findUserByEmail};
+const findUserById = async (id: string)=>{
+    const user = await prisma.user.findFirst({where:{
+        id
+    }});
+    
+    if(!user){
+        return false
+    }
+
+    return user;
+}
+
+export {findUserByName, findUserByEmail, findUserById};
