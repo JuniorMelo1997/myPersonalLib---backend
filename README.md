@@ -5,7 +5,7 @@ A place to keep the books i already readed, i'm reading right now and i want to 
 [x] Create user
 [x] Drop user
 [] Update user
-[] Find user
+[x] Find user
 [] Find all users
 
 [] Create books
